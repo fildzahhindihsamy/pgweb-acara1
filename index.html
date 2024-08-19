@@ -12,27 +12,32 @@
         }
 
         p {
+            text-indent: 30px;
             text-align: justify;
         }
-            {
-                table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #96D4D4;
-            }
-        {
 
-        trinth-child(even) {
-            background
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
         }
 
+        td,
+        th {
+            border: 1px solid #9a9c8c;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #8d9084;
+        }
 
         main {
             margin: 50px;
             padding: 20px;
-            box-shadow: 0 0 10px ;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
         }
     </style>
 </head>
